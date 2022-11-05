@@ -1,0 +1,17 @@
+.position{
+  position: absolute;
+  top: 100px;
+  right: 40px;
+}
+
+
+.fab{
+  font-size: 3px
+}
+
+
+p{
+  font-size: 100px;
+  position: absolute;
+  top: 300px;
+}

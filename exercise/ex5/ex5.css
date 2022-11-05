@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content:center;
+}
+
+.textbox{
+  margin:20px 0;
+  font-size: 40px
+}
+
+.text{
+  font-family: monospace;
+}
+
+.top {
+  border-top:0.5px solid;
+  border-bottom: 0.5px solid;
+  display: flex;
+  justify-content:center;
+}
+
+li{
+  list-style: none;
+  float: left;
+  padding:15px 20px;
+}
+
+.contents{
+  width: 800px;
+  height: 600px;
+}
+
+.box{
+  width: auto;
+  height: 700px;
+  display: flex;
+  justify-content:center;
+}
+
+.color-box{
+  width: 800px;
+  padding: 50px 0;
+  flex-wrap:wrap;
+}
+
+/*.box-green{*/
+/*  width: 800px;*/
+/*  height: 200px;*/
+/*}*/
+
+/*.box-yellow{*/
+/*  width: 800px;*/
+/*  height: 200px;*/
+/*}*/
+
+/*.box-blue{*/
+/*  width: 800px;*/
+/*  height: 200px;*/
+/*}*/
+
+.box-green{
+  display: flex;
+}
+
+.box-green .one{
+  width: 200px;
+  height: 200px;
+  background-color: #e6ffe9;
+}
+
+.box-green .two{
+  width: 200px;
+  height: 200px;
+  background-color: #cbffd3;
+}
+
+.box-green .three{
+  width: 200px;
+  height: 200px;
+  background-color: #aeffbd;
+}
+
+.box-green .four{
+  width: 200px;
+  height: 200px;
+  background-color: #93ffab;
+}
+
+.box-yellow{
+  display: flex;
+}
+
+.box-yellow .one{
+  width: 200px;
+  height: 200px;
+  background-color: #f3ffd8;
+}
+
+.box-yellow .two{
+  width: 200px;
+  height: 200px;
+  background-color: #edffbe;
+}
+
+.box-yellow .three{
+  width: 200px;
+  height: 200px;
+  background-color: #e9ffa5;
+}
+
+.box-yellow .four{
+  width: 200px;
+  height: 200px;
+  background-color: #e4ff8d;
+}
+
+.box-blue{
+  display: flex;
+}
+
+.box-blue .one{
+  width: 200px;
+  height: 200px;
+  background-color: #d9e5ff;
+}
+
+.box-blue .two{
+  width: 200px;
+  height: 200px;
+  background-color: #bad3ff;
+}
+
+.box-blue .three{
+  width: 200px;
+  height: 200px;
+  background-color: #a4c6ff;
+}
+
+.box-blue .four{
+  width: 200px;
+  height: 200px;
+  background-color: #8db8ff;
+}
+
+footer{
+  width: auto;
+  height: 120px;
+  background-color: gray;
+  color:white;
+  display: flex;
+  justify-content:center;
+}
+
+.f-text{
+  line-height: 120px;
+}
